@@ -1,3 +1,5 @@
+var hiddenInstallNote = 'install-note' + (/^ja/.test(navigator.language)?'':'-ja');
+document.getElementById(hiddenInstallNote).style.display='none';
 var g = this;
 var userjs_install;
 if (g.chrome){

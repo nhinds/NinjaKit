@@ -1,4 +1,7 @@
 var g = this;
+if(!g.chrome){
+  document.getElementById('nk').href='https://github.com/os0x/NinjaKit';
+}
 var BG, userjs_installer, Scripts, Config;
 if (g.chrome){
   BG = g.chrome && chrome.extension.getBackgroundPage();
